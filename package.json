@@ -1,0 +1,29 @@
+{
+  "name": "wdio-testing",
+  "version": "1.0.0",
+  "description": "learning automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "keywords": [
+    "Automation",
+    "Webdriver"
+  ],
+  "author": "Carolyn Hennessey",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/register": "^7.12.1",
+    "@wdio/cli": "^6.10.0",
+    "@wdio/local-runner": "^6.10.0",
+    "@wdio/mocha-framework": "^6.8.0",
+    "@wdio/spec-reporter": "^6.8.1",
+    "@wdio/sync": "^6.10.0",
+    "chromedriver": "^87.0.0",
+    "prettier": "^2.2.0",
+    "wdio-chromedriver-service": "^6.0.4"
+  }
+}
